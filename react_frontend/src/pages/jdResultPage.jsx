@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import ScoreSection from "../components/ScoreSection";
+import ScoreSection from "../components/scoreSection";
 import "./jdResultPage.css";
 
 const JdResultPage = () => {

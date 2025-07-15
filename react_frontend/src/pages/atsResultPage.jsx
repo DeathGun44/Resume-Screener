@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ScoreSection from "../components/ScoreSection";
+import ScoreSection from "../components/scoreSection";
 import "./AtsResultPage.css";
 import { useLocation, useNavigate } from 'react-router-dom';
 
