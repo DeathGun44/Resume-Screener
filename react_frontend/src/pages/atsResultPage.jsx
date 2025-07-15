@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ScoreSection from "../components/scoreSection";
-import "./AtsResultPage.css";
+import "./atsResultPage.css";
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const AtsResultPage = () => {
