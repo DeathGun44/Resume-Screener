@@ -1,5 +1,5 @@
 import React from "react";
-import "./ScoreSection.css";
+import "./scoreSection.css";
 
 const ScoreSection = ({ score, type }) => {
   const getFeedback = () => {
