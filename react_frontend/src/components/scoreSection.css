@@ -1,0 +1,158 @@
+.dark-theme {
+  background-color: #1e1f25;
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.result-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Score Page */
+.score-section {
+  padding: 7rem 2rem 3rem;
+  position: relative;
+}
+
+.how-it-works {
+  position: absolute;
+  
+  right: 2rem;
+  background-color: transparent;
+  border: 1px solid #4f5b93;
+  color: #c2c6dc;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.how-it-works:hover {
+  background-color: #4f5b93;
+  color: white;
+}
+
+.score-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.score-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.score-header p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Score Card */
+.score-card {
+  background-color: #2d2f38;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.score-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.score-tabs button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  color: #ccc;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.score-tabs .active-tab {
+  background-color: #4f5b93;
+  color: white;
+}
+
+.score-card h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.score-card p {
+  font-size: 1rem;
+  color: #ddd;
+  white-space: pre-line;
+  margin-bottom: 1.5rem;
+}
+
+/* Bar */
+.score-bar {
+  margin-top: 1rem;
+}
+
+.score-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.3rem;
+}
+
+.bar-container {
+  background: linear-gradient(to right, #e74c3c, #f1c40f, #2ecc71);
+  height: 14px;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.bar-fill {
+  height: 100%;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.score-pointer {
+  position: absolute;
+  top: -6px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #4f5b93;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  transition: left 0.5s ease;
+}
+
+/* Highlight Box */
+.score-info-box {
+  margin-top: 2rem;
+  border: 2px dotted #4f5b93;
+  background-color: #30323e;
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.score-note {
+  font-size: 0.95rem;
+  color: #9fe6a0;
+  font-style: italic;
+  margin: 0;
+}
