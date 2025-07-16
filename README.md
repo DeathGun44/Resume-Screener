@@ -38,7 +38,6 @@ An AI-powered resume analyzer that evaluates your resume using semantic similari
 
 ## 🖼 Screenshots
 
-> Save your screenshots inside a `screenshots/` folder in the root directory.
 
 ### 📝 Home Page
 ![Home Page](./screenshots/home.png)
@@ -66,21 +65,6 @@ An AI-powered resume analyzer that evaluates your resume using semantic similari
 
 ---
 
-## 📁 Project Structure
-
-root/
-├── client/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Pages like ResumeScanner, ResultPage
-│ └── App.jsx # Main routing component
-├── node_backend/ # Node.js + Express backend
-│ └── routes/ # API endpoint logic (Groq, resume handler)
-├── python_microservice/ # Python SBERT-based semantic scoring microservice
-│ └── app.py # Flask app using Sentence-BERT
-├── screenshots/ # Screenshots used in README or documentation
-└── README.md # This file
 
 ## 🔒 Privacy & Security
 
